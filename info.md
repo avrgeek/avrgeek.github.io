@@ -2,7 +2,6 @@
 layout: page
 title: "Info Space"
 description: "Location of generic information"
-group: navigation
 ---
 {% include JB/setup %}
 
