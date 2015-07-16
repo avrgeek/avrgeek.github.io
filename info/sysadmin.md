@@ -42,6 +42,8 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
   * Puppet:  Designed to be easier then CFEngine.  True for the most part, but requires a bit of work to bootstrap, at least for the pure open source version.
   * Salt:  Need to look at this one.  Requires a client install (unlike Ansible), but with 0MQ could be far more scalable.
   * Ansible:  I really like the lightweight distribution and no client side libraries required.  However, I do worry about scalability because of the use of SSH as a transport protocol.  Although this could be mitigated by a pull architecture, although report collection because a little more difficult.
+    * [Ansible](https://github.com/ansible/ansible): Ansible core project
+    * [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
   * Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
 
 
