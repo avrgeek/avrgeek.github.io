@@ -11,6 +11,7 @@ at least information I find interesting :-)
 
   * Development and Operations (DevOps...)
     * [System Administration]({{ site.url }}/info/sysadmin.html)
+    * [Development]({{ site.url }}/info/development.html)
   * Maker Topics
     * [3D Printing]({{ site.url }}/info/3dprint.html)
     * [Electronics]({{ site.url }}/info/electronics.html)
