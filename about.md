@@ -6,7 +6,7 @@ group: navigation
 ---
 {% include JB/setup %}
 
-This is the personal of Steve Miller.  The domain name is from a phrase I said while drifting asleep: "There's always a 
+This is the personal website of Steve Miller.  The domain name is from a phrase I said while drifting asleep: "There's always a 
 cookie on the R15 resistor"  Below you will find a brief summary of my experience.  If you wish to contact me please 
 [fill out the form here](http://www.stevenmiller.info/) and I will get back with you as soon as possible.
 
