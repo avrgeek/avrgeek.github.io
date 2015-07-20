@@ -8,6 +8,7 @@ title: "Development"
     * [Bootstrap CSS](http://getbootstrap.com/css/)
     * [Bootstrap Color Scheme Generator](http://www.lavishbootstrap.com/)
     * [Bootstrap Navbar Layout Generator](http://twbscolor.smarchal.com/)
+    * [PaintStrap](http://paintstrap.com/)
     * [Materialize](http://materializecss.com/): CSS Framework based on Google's Material design
   * Development
     * [Yii Framework](http://www.yiiframework.com/): My current goto for PHP development
