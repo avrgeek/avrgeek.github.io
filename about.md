@@ -67,7 +67,7 @@ Taught a variety of Computer Science, Computer Information Systems, and Networki
   * Classes taught:
     * **Unix Admin:** Intro to Unix/Linux, Unix/Linux System Administration, Web Server Administration
     * **Development:** Interactive Web Development, Perl Programming, Java Programming
-    * **Architecture:** Computer Architecture, Advance Computer Architecture
+    * **Architecture:** Computer Architecture, Advanced Computer Architecture
     * **Security:** Security+, Introduction to Cryptography
 
 ### Marion Public Schools (Aug. 2003 - Feb. 2005)
