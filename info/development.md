@@ -14,6 +14,6 @@ title: "Development"
     * [Yii Framework](http://www.yiiframework.com/): My current goto for PHP development
     * [MEAN Stack](http://mean.io/#!/): MongoDB, Express.js, Angular.js, and Node.js
     * Flask: A python-based Micro-Framework
-      * [Flash Mega Tutoral](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world): Full tutorial of using Flask, including database
+      * [Flash Mega Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world): Full tutorial of using Flask, including database
       * [RESTful API with Flask](http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask): RESTful API with Flask
     * [D3](https://github.com/mbostock/d3/wiki/Gallery):  Javascript library for visualizations 

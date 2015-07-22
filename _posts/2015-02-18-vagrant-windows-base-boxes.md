@@ -5,7 +5,7 @@ tags : [vagrant]
 ---
 {% include JB/setup %}
 
-Vagrant is one of the most useful tools for automating the build of Virtual environments for testing and development purposes.  I'm usually a Linux/Unix type guy, but on occation it would be nice to be able to test Windows.  
+Vagrant is one of the most useful tools for automating the build of Virtual environments for testing and development purposes.  I'm usually a Linux/Unix type guy, but on occasion it would be nice to be able to test Windows.  
 I just came across [this post](http://blog.syntaxc4.net/post/2014/09/03/windows-boxes-for-vagrant-courtesy-of-modern-ie.aspx) that indicates the modern.ie has provided 
 a set of [base boxes](https://www.modern.ie/en-us/virtualization-tools#downloads) that are usable for Vagrant.  I haven't had a chance to test them yet, but plan to do so soon.
 

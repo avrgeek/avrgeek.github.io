@@ -15,7 +15,7 @@ about the long-term maintenance of the Dokuwiki codebase.
 
 So why Jeykll specifically.  A few reasons:
 
-  * All pages, incluing posts, are stored in markdown. This is fairly similar to Dokuwiki wiki format, but a bit more standardized.  
+  * All pages, including posts, are stored in markdown. This is fairly similar to Dokuwiki wiki format, but a bit more standardized.  
   * Being pure text files, all the configuration and data can be put into a version control repository of some sort.  Dokuwiki had history, but did not use any type of standard storage method.  The downside it it's not easy to see change history without going into the VCS, but that it address somewhat below.
   * Github will provide free hosting, and had tie-ins to auto-generate the HTML when committed.
   * The site uses pure HTML.  This seems a bit contrary to all my recent activity in the web arena, but ultimately frees me from upgrades and maintenance of the application and database layers that would be in a traditional blogging platform, as well as a lot of security concerns.  Looking at you Wordpress....   

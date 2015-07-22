@@ -14,7 +14,7 @@ that any cloud-provider needs to provide an easy way to export their data in
 the event that they do close down.  Evernote allows export of individual notes into 
 HTML or PDF, [and even supports exporting all your notes into an XML file](http://blog.evernote.com/tech/2013/08/08/evernote-export-format-enex/).  Google also does a decent job with the [data liberation group](http://dataliberation.blogspot.com/) and [Google Takeout](https://www.google.com/settings/takeout).  However, such tools don't help if your cloud provider goes out of business without considering their user's data.
 
-Other cloud services should follow Springpad's example and provide plans to allow users to export their data, with enough company capital in reserves to keep the site up for enough time to do so.  Springpad has provided 30 days, and several email reminders has shown themselves as good stewarts.  It is a service that will be missed.
+Other cloud services should follow Springpad's example and provide plans to allow users to export their data, with enough company capital in reserves to keep the site up for enough time to do so.  Springpad has provided 30 days, and several email reminders has shown themselves as good stewards.  It is a service that will be missed.
 
 
 ![Springpad Closure]({{ site.url }}/assets/blog/2014-06-17-responsible-hosting-of-cloud-services/springpadclosure.png){:height="200px"}

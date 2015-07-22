@@ -8,7 +8,7 @@ Growing up in a rural community, the weather was always a hot topic.  If you nee
 
   * [NWS Weather Site](http://www.weather.gov):  The National Weather Service's primary site.  Pretty basic layout, but gets the job done.  I especially enjoy the "graph" view the lays out precipitation predictions on an hourly basis.
   * [WUnderground](http://www.wunderground.com/):  A site I've always followed since the 90's, when they provided a telnet service for getting weather info.  
-  * [Forecast.io](http://forecast.io):  A very interesting next-gen weather site.  It's primary claim to fame is using an exact address to tell a person detailed forcast info within an hour.  Also has interesting graphics and graphs.
-  * [OpenWeatherMap](http://openweathermap.org/):  Another interesting service that probably has the most open API other then the NWS...and OpenWeatherMap has a far cleaner API.
+  * [Forecast.io](http://forecast.io):  A very interesting next-gen weather site.  It's primary claim to fame is using an exact address to tell a person detailed forecast info within an hour.  Also has interesting graphics and graphs.
+  * [OpenWeatherMap](http://openweathermap.org/):  Another interesting service that probably has the most open API other than the NWS...and OpenWeatherMap has a far cleaner API.
   * [JohnDee.com](http://www.johndee.com/):  A private meteorologist from Michigan's Upper Peninsula.   
   * [Bill's Blog](http://blogs.woodtv.com/category/bills-blog/):  A blog from a local meteorologist from Grand Rapids.

@@ -14,8 +14,8 @@ to put a cookie on the R15 resistor"  Below you will find a brief summary of my 
 
 ### Weather Station
 
-Build a Raspberry-Pi driven weather station for home.  Other then being a reallyy nifty project, also hoping to modify
-a rain gauge to track estimated snow fall, and wake me up in time to plow our 500 ft. driveway if that become necessary.
+Build a Raspberry-Pi driven weather station for home.  Other than being a really nifty project, also hoping to modify
+a rain gauge to track estimated snowfall, and wake me up in time to plow our 500 ft. driveway if that become necessary.
 
 ### RFID Dog Feeder
 
@@ -24,7 +24,7 @@ the early planning stages, it will hopefully help keep our dogs well fed, but al
 
 ### [Moo Machine](https://sites.google.com/a/stevenmiller.info/www/home/projects/moomachinehome)
 
-An Altair 8800 style machine designed to implement the [http://web.archive.org/web/20130403133623/bigzaphod.org/cow/]("COW" programming language).  It's a really simplistic language, but is technically turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  Unfortunatly the 
+An Altair 8800 style machine designed to implement the ["COW" programming language](http://web.archive.org/web/20130403133623/bigzaphod.org/cow/).  It's a really simplistic language, but is technically turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  Unfortunately the 
 original site is down, but thanks to the Internet Archive project, we can still view the original page.
 
 

@@ -16,10 +16,10 @@ at least information I find interesting :-)
 
 # Maker Topics
 
-*when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.* [Source](http://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/#sthash.Q7C9i7R2.dpuf)
+*"when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create."* [Source](http://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/#sthash.Q7C9i7R2.dpuf)
 
   * [3D Printing]({{ site.url }}/info/3dprint.html)
   * [Electronics]({{ site.url }}/info/electronics.html)
-  * [Embedded Electronics]({{ site.url }}/info/embedded.html)
+  * [Embedded Systems]({{ site.url }}/info/embedded.html)
   * [Weather]({{ site.url }}/info/weather.html)
 

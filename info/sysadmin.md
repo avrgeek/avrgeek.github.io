@@ -27,19 +27,19 @@ The first step is to manage the build process for the system.  I encompass this 
 
 Physical: 
 
-  * PXE Boot Into Hardware Setup Utilitiies (BIOS, Array, other hardware components)
+  * PXE Boot Into Hardware Setup Utilities (BIOS, Array, other hardware components)
   * PXE Boot Into Automated OS Installation (Kickstart for Redhat/CentOS, Preseed for Ubuntu/Debian)
 
 Virtual:  
 
   * PXE Boot or Templating System
 
-I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  The installation system should simple setup a minimum number of packages, and then pass off installation to a configuration management system.
+I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  The installation system should simply setup a minimum number of packages, and then pass off installation to a configuration management system.
 
 # Manage 
 
   * CFEngine:  The oldest, and also the most complex to setup.
-  * Puppet:  Designed to be easier then CFEngine.  True for the most part, but requires a bit of work to bootstrap, at least for the pure open source version.
+  * Puppet:  Designed to be easier than CFEngine.  True for the most part, but requires a bit of work to bootstrap, at least for the pure open source version.
   * Salt:  Need to look at this one.  Requires a client install (unlike Ansible), but with 0MQ could be far more scalable.
   * Ansible:  I really like the lightweight distribution and no client side libraries required.  However, I do worry about scalability because of the use of SSH as a transport protocol.  Although this could be mitigated by a pull architecture, although report collection because a little more difficult.
     * [Ansible](https://github.com/ansible/ansible): Ansible core project
