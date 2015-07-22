@@ -62,7 +62,7 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
 
 
 # Misc 
-NSA Proof Your Email System http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/
+[NSA Proof Your Email System](http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/)
 
 # Reading 
 

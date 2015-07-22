@@ -17,7 +17,7 @@ However, several others have made good points that essential you become a digita
 
 [8 Reasons You Should Never Give Up Your Own Blog for Google+](http://www.copyblogger.com/google-plus-sharecropping/)
 
-I generally lean toward this philosophy, or some hybrid.  For example, my email address is a private domain, but hosted on Google Apps.  If I ever choose to I could leave for a different mail provider, or go to hosting my own, without the worry of letting everyone know my new email address.  As far as blogging, I will maintain a private blog, and simple link out from Google+, Facebook, Twitter, and the like.  Now to just find a decent commenting system that is resistant to spam...
+I generally lean toward this philosophy, or some hybrid.  For example, my email address is a personal domain, but hosted on Google Apps.  If I ever choose to I could leave for a different mail provider, or go to hosting my own, without the worry of letting everyone know my new email address.  As far as blogging, I will maintain a personal blog, and simply link out from Google+, Facebook, Twitter, and the like.  Now to just find a decent commenting system that is resistant to spam...
 
 
 {{tag>}}

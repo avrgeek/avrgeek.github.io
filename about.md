@@ -15,7 +15,7 @@ to put a cookie on the R15 resistor"  Below you will find a brief summary of my 
 ### Weather Station
 
 Build a Raspberry-Pi driven weather station for home.  Other than being a really nifty project, also hoping to modify
-a rain gauge to track estimated snowfall, and wake me up in time to plow our 500 ft. driveway if that become necessary.
+a rain gauge to track estimated snowfall, and wake me up in time to plow our 500 ft. driveway if that becomes necessary.
 
 ### RFID Dog Feeder
 
