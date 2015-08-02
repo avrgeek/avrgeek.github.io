@@ -52,8 +52,12 @@ openssl req -new -sha256 -key www.example.com.key > www.example.com.csr
 
 Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
 
+  * Security Scanners:
+    * [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
+    * [Lynis](http://wiki.ipfire.org/en/addons/lynis/start):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.  However, I have not tested either at this point.
+  * [Endian](http://www.endian.com): Appliance for security and hotspot management
+  * [IPFire](http://www.ipfire.org/): Linux based firewall distro
   * [MailScanner](http://www.mailscanner.info/):  Seems easier then attempting to roll Spamassassin, ClamAV, greylisting, etc.
   * [Odessa](http://odessa.sourceforge.net/): Alternative to Autopsy/Sleuth Kit for Open Source forensics work.
-  * [Endian](http://www.endian.com): Appliance for security and hotspot management
-  * [Snort](https://www.snort.org/): Open source intrusion detection system.
   * [PFSense](https://www.pfsense.org/):  Pretty solid when I last used the project a few years ago.  Based on FreeBSD, so limited to whatever FreeBSD supports hardware wise.
+  * [Snort](https://www.snort.org/): Open source intrusion detection system.
