@@ -24,7 +24,7 @@ the early planning stages, it will hopefully help keep our dogs well fed, but al
 
 ### [Moo Machine](https://sites.google.com/a/stevenmiller.info/www/home/projects/moomachinehome)
 
-An Altair 8800 style machine designed to implement the ["COW" programming language](http://web.archive.org/web/20130403133623/bigzaphod.org/cow/).  It's a really simplistic language, but is technically turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  Unfortunately the 
+An Altair 8800 style machine designed to implement the ["COW" programming language](http://web.archive.org/web/20130403133623/bigzaphod.org/cow/).  It's a really simplistic language, but is technically Turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  Unfortunately the 
 original site is down, but thanks to the Internet Archive project, we can still view the original page.
 
 
@@ -41,7 +41,7 @@ workstations, and 700+ point of sale systems.
   * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Currently working on migrating to Puppet.
   * Developed a network based imaging system for Linux servers, Windows workstations, and 4690 POS systems.  The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.
   * Performed forensics work on a Linux based appliance, as well as a Windows based DVR.  Provided written documentation used for later remediation and vendor negotiation processes
-  * Migrated system administration scripts and configurations over to subversion, in support of SOX and PCI compliance audits.
+  * Migrated system administration scripts and configurations over to subversion in order to improve development, and to support SOX and PCI compliance audits.
   * Implemented a VMWare vSphere 5.5 cluster for the Marketplace division.  Migrated a major application from HPUX to Linux running on top of vSphere.
 
 ### Ferris State University (Feb. 2005 - March 2008)
