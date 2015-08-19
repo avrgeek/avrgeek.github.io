@@ -14,7 +14,7 @@ software stack for the lab.
 
 Currently I have two physical systems that are libvirt/KVM hosts for my 
 virtual machines, including the main firewall and fileserver.  I've had my eye
-on a few newer technologies, so I'd make the lab flexible.
+on a few newer technologies, so the lab layout requires maximum flexibility.
 With that in mind, here is the brief plan for the rebuild:
 
 * Continue to be based on Ubuntu 14.04 and a Libvirt/KVM setup.  This provide
