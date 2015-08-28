@@ -62,3 +62,7 @@ Useful article at [Open Source Replacement for Security Software](http://www.dat
   * [Odessa](http://odessa.sourceforge.net/): Alternative to Autopsy/Sleuth Kit for Open Source forensics work.
   * [PFSense](https://www.pfsense.org/):  Pretty solid when I last used the project a few years ago.  Based on FreeBSD, so limited to whatever FreeBSD supports hardware wise.
   * [Snort](https://www.snort.org/): Open source intrusion detection system.
+
+# Reading
+
+  * [Lessons From Reviewing Postmortems](http://danluu.com/postmortem-lessons/)

@@ -38,6 +38,7 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
 
 # Manage 
 
+  * [Git](https://git-scm.com/):  All configurations should be in a version management system, and git is probably the best available.  For any open source code [Github](https://github.com/) is pretty much the defacto host for a lot of projects.
   * CFEngine:  The oldest, and also the most complex to setup.
   * Puppet:  Designed to be easier than CFEngine.  True for the most part, but requires a bit of work to bootstrap, at least for the pure open source version.
   * Salt:  Need to look at this one.  Requires a client install (unlike Ansible), but with 0MQ could be far more scalable.
@@ -45,16 +46,21 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
     * [Ansible](https://github.com/ansible/ansible): Ansible core project
     * [AnsiJet](https://github.com/hiddentao/ansijet): Ansible playbook automation server.  Provides a REST API and playbook results storage in MongoDB.
   * Vagrant: Designed to quickly deploy test virtual machines in a specific configuration.  Can pull in configuration management from Ansible, Salt, Puppet, etc.
+  * [Docker](https://www.docker.com/): Extremely light weight container system.
+  * [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
+full integration testing on a stack
 
 
 ### Monitoring 
 
   * Nagios
   * Sensu
+  * [Collectd](http://collectl.sourceforge.net/): Monitoring OS system stats.
+  * [Elk Stack for Log Monitoring](https://www.elastic.co/webinars/elk-stack-devops-environment)
   * Performance related articles at [http://www.brendangregg.com/index.html](/var/www/html/data/pages/info/sysadmin.txt)
 
 ### Backups 
-(need to research...probalby Bacula or Amanda)
+(need to research...probably Bacula or Amanda)
 
 # Audit 
 
@@ -68,4 +74,5 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
 
   * [Art of Unix Programming](http://www.faqs.org/docs/artu/)
   * [The Command Line in 2004](http://garote.bdmonkeys.net/commandline/index.html)
+  * [9 Open Source DevOps Tools We Love](http://devops.com/2015/08/07/9-open-source-devops-tools-love/)
 
