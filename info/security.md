@@ -52,7 +52,10 @@ openssl req -new -sha256 -key www.example.com.key > www.example.com.csr
 
 Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
 
-  * Security Scanners:
+  * Configuration Standards
+    * [Center for Internet Security](http://www.cisecurity.org/): Provides configuration guides for common OS and server software.
+    * [Linux Foundation Workstation Guidelines](https://github.com/lfit/itpol/blob/master/linux-workstation-security.md): Excellent overview for securely configuring a Linux workstation
+  * Security Scanners
     * [GovReady Github](https://github.com/GovReady): An entire Government sponsored site that integrates open source tools into government standards.  Policies for CentOS and Ubuntu exist, as well as a lot of other resources.
     * [OpenSCAP](http://www.open-scap.org/page/Main_Page): Open source tool to read and evaluate system security based on SCAP standards
     * [Lynis](http://wiki.ipfire.org/en/addons/lynis/start):  Another security scanner for Linux/Unix systems, focusing around common standards and best practices.  Seems far easier to install and configure than OpenSCAP.  However, I have not tested either at this point.
