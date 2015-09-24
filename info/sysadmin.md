@@ -49,6 +49,8 @@ I prefer to hand-roll a PXE configuration instead of using Cobbler or Foreman.  
   * [Docker](https://www.docker.com/): Extremely light weight container system.
   * [Jenkins](https://jenkins-ci.org/): Generally used for CI on code, could be integrated with the above to perform
 full integration testing on a stack
+  * [SSHMuxd](https://github.com/joushou/sshmuxd): Allow the build-out of an SSH jump host.  Could be extremely valuable to allow developers and admins access
+to cloud based IaaS instances without provisioning credentials to all individuals
 
 
 ### Monitoring 
