@@ -12,7 +12,7 @@ Chromebook to us it, or go through compiling the ChromeOS from source.  A few da
 [Neverware's CloudReady](http://www.neverware.com/free/), which provides an freely available (to individuals) 
 ChromeOS experience on generic hardware.  
 
-Cloudread, however, does not support 
+Cloudready, however, does not support 
 dual boot, so it will wipe away anything on the machine.  Following some hints from [this page](https://neverware.zendesk.com/hc/communities/public/questions/205595978-Has-anyone-prepared-a-Virtual-Appliance-of-this-yet-) I was able to 
 get the CloudReady to install on a Virtualbox VM, without the need to create a USB bootable drive.
 
