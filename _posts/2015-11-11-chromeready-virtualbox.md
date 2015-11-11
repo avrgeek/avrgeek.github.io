@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 The ChromeOS has been a great experience so far.  One problem, however, is that you generally need to purchase a 
-Chromebook to us it, or go through compiling the ChromeOS from source.  A few days ago I came across 
+Chromebook to use it, or go through compiling the ChromeOS from source.  A few days ago I came across 
 [Neverware's CloudReady](http://www.neverware.com/free/), which provides an freely available (to individuals) 
 ChromeOS experience on generic hardware.  
 
