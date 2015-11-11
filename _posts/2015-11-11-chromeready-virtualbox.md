@@ -17,7 +17,7 @@ dual boot, so it will wipe away anything on the machine.  Following some hints f
 get the CloudReady to install on a Virtualbox VM, without the need to create a USB bootable drive.
 
   * Download the latest CloudReady Image.  Unzip the file to get the ".bin" file
-  * Convirt the bin file into a VirtualBox VDI
+  * Convert the bin file into a VirtualBox VDI
 
 ```
 VBoxManage convertfromraw cloudready-free-43.1.37.bin cloudready-free-43.1.37.vdi
