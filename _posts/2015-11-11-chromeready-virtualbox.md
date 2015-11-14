@@ -25,7 +25,7 @@ VBoxManage convertfromraw cloudready-free-43.1.37.bin cloudready-free-43.1.37.vd
 
   * Create a new VM in Virtualbox:
     * Click the "Expert Mode" button
-    * Select type as "Linux" and version as "Other Linux (64-bit)
+    * Select type as "Linux" and version as "Other Linux (64-bit)"
     * Memory size 2GB of larger
     * Point the Hard disk to the VDI created above.
   * Edit the properties of the VM
