@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChromeReady in Virtualbox"
+title: "CloudReady in Virtualbox"
 description: ""
 category:
 tags: []
