@@ -7,9 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-I recently purchased a [Spark Core](https://www.particle.io/) development kit at Microcenter last week.  The Spark Core is a "cloud" development board.  Normally I shy away from such things, but the company fully releases source
-code for the schematics, firmware on the device itself, and a node.js implementation of the server side.
-Given that, I figure it would be worth testing.  
+I recently purchased a [Spark Core](https://www.particle.io/) development kit at Micro Center last week.  The Spark Core is a cloud development board.  Normally I try to avoid any cloud platform that may lock me into a vendor, 
+but as Particle (the company) fully releases source code for the schematics, firmware on the device itself, and a node.js implementation of the server side, it seems like a very safe platform for development.  
 
 The Spark is an older version of their newer development boards, the "Photon".  Normally the Spark phone app can be 
 used to initialize the board, but the app did not work for me.  Fortunately, there are methods to setup the device manually.  The steps I needed to take to get the Spark working were:
@@ -17,7 +16,7 @@ used to initialize the board, but the app did not work for me.  Fortunately, the
   * Make sure to have an account on [the Particle Dashboard](https://dashboard.particle.io).
   * [Install Particle CLI Tool](https://github.com/spark/particle-cli).
   * [Update Firmware for Spark Core](https://github.com/spark/particle-cli#core).
-  * Once done, make sure device is in listening mode. (hold the setup button for three seconds)
+  * Once done, make sure device is in listening mode. (Hold the setup button for three seconds)
   * Obtain serial by running "particle serial identify".  Record the "device id".
   * Run "particle serial setup wifi".  Answer the appropriate connections for your wifi network.
   * Check the Particle Dashboard.  If device doesn't appear in the dashboard:
