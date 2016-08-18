@@ -19,5 +19,3 @@ Other cloud services should follow Springpad's example and provide plans to allo
 
 ![Springpad Closure]({{ site.url }}/assets/blog/2014-06-17-responsible-hosting-of-cloud-services/springpadclosure.png){:height="200px"}
 
-{{:blog:springpadclosure.png?400|}}
-
