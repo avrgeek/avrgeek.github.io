@@ -34,22 +34,23 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 ### Gordon Food Service - Security Engineer (May 2016 - Present)
 
 Responsible for monitoring and adjusting security controls within Gordon Food
-Service.  Performed risk assessments against various packages software solution.
-Performed security assessments against potential breech situations as necessary.
+Service.  Perform risk assessments against various software solutions.
+Perform security assessments against potential breech situations as necessary.
 
-  * Migrated/upgraded the primary file integrity monitoring system.
+  * Performed a migration and upgrade of the primary file integrity monitoring
+  system.
   * Assisted with the upgraded the security information and event management
   system (SIEM), including the diagnosis of potential OS level bugs.
-  * Diagnosis of unusual traffic from a third party device, and provided
+  * Analyzed unusual traffic from a third party device, and provided
   documentation and evidence that was used for vendor remediation.
   * Hardened a bastion box by implementing common security controls and
   two-factor authentication.
-  * Used Vagrant workflow to assist with upgrades and configuration testing.
+  * Used a Vagrant based workflow to assist with upgrades and configuration testing.
 
 ### Gordon Food Service - System Administrator (March 2008 - May 2016)
 
-Responsible for the management of 170+ remote Linux servers, 20+ Linux/HPUX/AIX/Windows central servers, 700+ Windows
-workstations, and 700+ point of sale systems.
+Responsible for the management of 170+ remote Linux servers, 20+
+Linux/HPUX/AIX/Windows central servers, 700+ Windows workstations, and 700+ point of sale systems.
 
   * Technical lead for rollout of new credit card authorization system.  Engineered a redundant system that met disaster recovery targets.  The system successfully passed an external evaluation as well as an internal threat model review.
   * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Puppet based infrastructure and process
