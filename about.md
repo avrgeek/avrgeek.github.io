@@ -35,11 +35,11 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 
 Responsible for monitoring and adjusting security controls within Gordon Food
 Service.  Perform risk assessments against various software solutions.
-Perform security assessments against potential breech situations as necessary.
+Perform security assessments against potential breach situations as necessary.
 
   * Performed a migration and upgrade of the primary file integrity monitoring
   system.
-  * Assisted with the upgraded the security information and event management
+  * Assisted with upgrading the security information and event management
   system (SIEM), including the diagnosis of potential OS level bugs.
   * Analyzed unusual traffic from a third party device, and provided
   documentation and evidence that was used for vendor remediation.
