@@ -6,8 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
-This is the personal website of Steve Miller.  The domain name is from a phrase I said while drifting asleep: "We need 
-to put a cookie on the R15 resistor"  Below you will find a brief summary of my experience.  If you wish to contact me please 
+This is the personal website of Steve Miller.  The domain name is from a phrase I said while drifting asleep: "We need
+to put a cookie on the R15 resistor"  Below you will find a brief summary of my experience.  If you wish to contact me please
 [fill out the form here](https://docs.google.com/forms/d/1SQcAaXNPm2zxWP145P-Gpu9xpY3NUn_bNT8SYqi8iTE/viewform?usp=send_form) and I will get back with you as soon as possible.
 
 # Personal Projects
@@ -24,21 +24,37 @@ the early planning stages, it will hopefully help keep our dogs well fed, but al
 
 ### [Moo Machine](https://sites.google.com/a/stevenmiller.info/www/home/projects/moomachinehome)
 
-An Altair 8800 style machine designed to implement the ["COW" programming language](http://web.archive.org/web/20130403133623/bigzaphod.org/cow/).  It's a really simplistic language, but is technically Turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  Unfortunately the 
-original site is down, but thanks to the Internet Archive project, we can still view the original page.
+An Altair 8800 style machine designed to implement the ["COW" programming language](https://bigzaphod.github.io/COW/).  It's a really simplistic language, but is technically Turing complete.  The machine itself is powered by a Arduino Mega (more for the IO pins then the actual processor)  
 
 
 
 
 # Professional Experience
 
-### Gordon Food Service (March 2008 - Present)
+### Gordon Food Service - Security Engineer (May 2016 - Present)
 
-Responsible for the management of 170+ remote Linux servers, 20+ Linux/HPUX/AIX/Windows central servers, 700+ Windows 
-workstations, and 700+ point of sale systems.
+Responsible for monitoring and adjusting security controls within Gordon Food
+Service.  Perform risk assessments against various software solutions.
+Perform security assessments against potential breach situations as necessary.
+
+  * Performed a migration and upgrade of the primary file integrity monitoring
+  system.
+  * Assisted with upgrading the security information and event management
+  system (SIEM), including the diagnosis of potential OS level bugs.
+  * Analyzed unusual traffic from a third party device, and provided
+  documentation and evidence that was used for vendor remediation.
+  * Hardened a bastion box by implementing common security controls and
+  two-factor authentication.
+  * Used a Vagrant based workflow to assist with upgrades and configuration testing.
+
+### Gordon Food Service - System Administrator (March 2008 - May 2016)
+
+Responsible for the management of 170+ remote Linux servers, 20+
+Linux/HPUX/AIX/Windows central servers, 700+ Windows workstations, and 700+ point of sale systems.
 
   * Technical lead for rollout of new credit card authorization system.  Engineered a redundant system that met disaster recovery targets.  The system successfully passed an external evaluation as well as an internal threat model review.
-  * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Currently working on migrating to Puppet.
+  * Implemented a CFEngine configuration management system for PCI based system to assist in management and compliance.  Puppet based infrastructure and process
+  was developed, utilizing a workflow based on Vagrant.
   * Developed a network based imaging system for Linux servers, Windows workstations, and 4690 POS systems.  The new system removed the need for external media and allowed remote scheduling of imaging and recovery activities.
   * Performed forensics work on a Linux based appliance, as well as a Windows based DVR.  Provided written documentation used for later remediation and vendor negotiation processes
   * Migrated system administration scripts and configurations over to subversion in order to improve development, and to support SOX and PCI compliance audits.
@@ -46,8 +62,8 @@ workstations, and 700+ point of sale systems.
 
 ### Ferris State University (Feb. 2005 - March 2008)
 
-Responsible for the maintenance of Solaris, Linux, and HPUX servers at the institution, as well 
-as a variety of Windows 2000/2003 servers and scripts. Assisted with tuning and maintenance of 
+Responsible for the maintenance of Solaris, Linux, and HPUX servers at the institution, as well
+as a variety of Windows 2000/2003 servers and scripts. Assisted with tuning and maintenance of
 Java based server applications.
 
   * Technical team lead for the implementation of a new primary e-Learning application, Blackboard Vista Enterprise, utilizing a BEA Weblogic clustered application tier.
@@ -83,7 +99,7 @@ Responsible for the technology program, including all PC and Network maintenance
 ### Cornerstone Church (May 2014 - Present)
 
   * Assisted in maintenance of content on website.
-  * Developed the back-end code to load data from SaaS data solution, through REST API, using C#.  Also developed REST 
+  * Developed the back-end code to load data from SaaS data solution, through REST API, using C#.  Also developed REST
 endpoints to query data that was used in custom front-end code.
 
 ### Adray Hockey Association (July 2001 - Present)
@@ -96,7 +112,7 @@ endpoints to query data that was used in custom front-end code.
 
   * **Operating Systems:** Linux (Redhat, Suse and Debian), VMWare ESX, Windows Desktop and Server, HP-UX, AIX, Solaris, Toshiba (IBM) 4690
   * **Programming Languages:** Shell Scripting, Perl, PHP, Python, Java, SQL
-  * **Applications:** Apache, Nagios, CFEngine, Subversion, Git, Tomcat, BEA WebLogic, SunONE Web Server, SunONE Directory Server, OpenLDAP, MySQL, Postgresql
+  * **Applications:** Apache, Nagios, CFEngine, Ansible, Subversion, Git, Tomcat, BEA WebLogic, OpenLDAP, MySQL, Postgresql, Vagrant
   * **Cluster:**  HP ServiceGuard, Veritas Cluster/File System
   * **Network:** F5 Local Traffic Manager, OpenSSL, iptables, PXELinux, dhpcd, tftp, Squid Web Caching, Cacti, Wireshark/tcpdump, Nagios, Cisco IOS
   * **Storage/Backup:**  EMC Clariion, Veritas Netbackup
