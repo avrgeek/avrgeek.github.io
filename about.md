@@ -33,7 +33,7 @@ An Altair 8800 style machine designed to implement the ["COW" programming langua
 
 ### Gordon Food Service - Security Engineer (May 2016 - Present)
 
-Responsible for monitoring and adjusting security controls withing Gordon Food
+Responsible for monitoring and adjusting security controls within Gordon Food
 Service.  Performed risk assessments against various packages software solution.
 Performed security assessments against potential breech situations as necessary.
 
