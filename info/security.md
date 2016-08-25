@@ -5,50 +5,15 @@ title: "Security"
 {% include JB/setup %}
 
 
-# [Start SSL](http://www.startssl.com/?app=0)
+# SSL/TLS Information
 
-Have to make sure your "client" certificate is renewed every year, so that you can register new domains.  I think you can only do this within two weeks of expiration.  It's a bit painful to use, but it is free.
+* [Let's Encrypt](https://letsencrypt.org/):  Freely available certificates for websites.
+Requires a client as the certficates are only valid for 90 days, but many clients
+exist.  I currently use [EFF Certbot](https://certbot.eff.org/)
+* [Start SSL](http://www.startssl.com/?app=0):  Also offers free certificates,
+but also several paid options.  Used to be a bit cumbersome to use, but may be improved after recent updates.
 
-
-## Personal Validation Code
-
-  * Login -> "Validations Wizard" -> "Email Validation", get the code and validate.
-  * "Certificates Wizard" -> "S/MIME and Authentication Certificate" -> .... browser asks if you wanna install........ some more prompts and done.
-
-
-## Generating a new certificate
-
-  - Create a new private key 
-
-```
-openssl genrsa 2048 > www.example.com.key
-or 
-openssl genrsa -des3 2048 > www.example.com.key
-```
-
-  - Generate Request 
-
-```
-openssl req -new -sha256 -key www.example.com.key > www.example.com.csr
-```
-
-  - Fill in fields
-  - Validate a Domain on startssl website
-    - Validation Wizards -> Domain Name Validation
-    - Enter top level domain (r15cookie.com in this instance)
-    - Based on whois info on domain, should send email with validation code
-    - Enter validation code in email.
-  - Get CSR signed
-    - Certificate Wizards -> Web Server SSL/TLS Certificate
-    - Skip (already generated private key/CSR)
-    - Copy/paste text of CSR into window
-    - Will take a few seconds to process.  Click Continue
-    - Select appropriate top-level domain. 
-    - Add one sub-level domain (generally www)
-    - Confirm information, then continue.
-    - May have to wait a few hours to complete confirmation of new certificate
-
-# External Links 
+# External Links
 
 Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
 
