@@ -11,8 +11,7 @@ title: "Security"
 Requires a client as the certficates are only valid for 90 days, but many clients
 exist.  I currently use [EFF Certbot](https://certbot.eff.org/)
 * [Start SSL](http://www.startssl.com/?app=0):  Also offers free certificates,
-but also several paid options.  Used to be a bit cumbersome to use, but unsure
-of their current status.
+but also several paid options.  Used to be a bit cumbersome to use, but may be improved after recent updates.
 
 # External Links
 
