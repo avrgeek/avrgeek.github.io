@@ -136,6 +136,7 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 # Fix for missing extension for page.url property
+#  Based on https://github.com/jekyll/jekyll/issues/4145
 defaults:
   -
     scope:
