@@ -13,6 +13,28 @@ exist.  I currently use [EFF Certbot](https://certbot.eff.org/)
 * [Start SSL](http://www.startssl.com/?app=0):  Also offers free certificates,
 but also several paid options.  Used to be a bit cumbersome to use, but may be improved after recent updates.
 
+# SSL Private CA
+
+  * Build a CA
+    * See [JamieLinux.com](https://jamielinux.com/docs/openssl-certificate-authority/create-the-root-pair.html) for a good walkthrough.
+  * Build a new certificate
+    {% highlight bash %}
+    openssl req -out mydomain.csr -new -newkey rsa:2048 -nodes -keyout mydoamin.key
+    {% endhighlight %}
+  * Parameters
+    * Country: US
+    * State: Michigan
+    * Locality Name: Full City Name
+    * Organization Name: Company
+    * Organizational Unit: Department
+    * Common name: fqdn.mydomain.com
+    * Email: blank
+    * Defaults for rest
+  * Sign Certificate
+    {% highlight bash %}
+    openssl ca -config openssl.cnf -in mydomain.csr -out mydomain.crt
+    {% endhighlight %}
+
 # External Links
 
 Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
