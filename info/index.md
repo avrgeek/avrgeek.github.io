@@ -11,6 +11,7 @@ at least information I find interesting :-)
 
 # Development and Operations (DevOps...)
 
+  * [Desktop]({{ site.url }}/info/desktop.html)
   * [Development]({{ site.url }}/info/development.html)
   * [Security]({{ site.url }}/info/security.html)
   * [System Administration]({{ site.url }}/info/sysadmin.html)
