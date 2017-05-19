@@ -19,7 +19,7 @@ but also several paid options.  Used to be a bit cumbersome to use, but may be i
     * See [JamieLinux.com](https://jamielinux.com/docs/openssl-certificate-authority/create-the-root-pair.html) for a good walkthrough.
   * Build a new certificate
     {% highlight bash %}
-    openssl req -out mydomain.csr -new -newkey rsa:2048 -nodes -keyout mydoamin.key
+    openssl req -out mydomain.csr -new -sha256 -newkey rsa:2048 -nodes -keyout mydoamin.key
     {% endhighlight %}
   * Parameters
     * Country: US
