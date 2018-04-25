@@ -6,14 +6,22 @@ title: "Embedded Systems"
 
 Concentrating on embedded systems that can run Linux or other "full" OSes.
 
-# Current Inventory and "use" (if any)
+# Inveotory of non-Linux embedded systems
+
+| Device | Use |
+| --- | --- |
+| Arduino * (many) | Many |
+| Arduino Mega x 2 | [MooMachine](http://www.stevenmiller.info/home/projects/moomachinehome) |
+| Spark Core |   |
+
+# Inventory of "Linux" Based Embedded Systems
 
 | Device | Use |
 | --- | --- |
 | Rasp Pi 3 with 7" LCD and 8GB SD | Mini "computer", but no battery... |
 | Rasp Pi 3 | Pi-TopCEED (desktop form factor) |
 | Rasp Pi 2 (2011.12) | NES Emulator |
-| Onion Omega2 |  | 
+| Onion Omega2 | Weather Station | 
 
 # Hardware Platforms
 
