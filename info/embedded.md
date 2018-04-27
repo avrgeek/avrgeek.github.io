@@ -8,20 +8,25 @@ Concentrating on embedded systems that can run Linux or other "full" OSes.
 
 # Inveotory of non-Linux embedded systems
 
-| Device | Use |
-| --- | --- |
-| Arduino * (many) | Many |
-| Arduino Mega x 2 | [MooMachine](http://www.stevenmiller.info/home/projects/moomachinehome) |
-| Spark Core |   |
+| Device | Arch | Use |
+| --- | --- | --- |
+| Arduino * (many) | avr | Many |
+| Arduino Mega x 2 | avr |  [MooMachine](http://www.stevenmiller.info/home/projects/moomachinehome) |
+| BBC Microbit | arm (Cortex M0 on a nRF51822 SoC) |  |
+
+
 
 # Inventory of "Linux" Based Embedded Systems
 
-| Device | Use |
-| --- | --- |
-| Rasp Pi 3 with 7" LCD and 8GB SD | Mini "computer", but no battery... |
-| Rasp Pi 3 | Pi-TopCEED (desktop form factor) |
-| Rasp Pi 2 (2011.12) | NES Emulator |
-| Onion Omega2 | Weather Station | 
+| Device | Arch | Use |
+| --- | --- | --- |
+| Rasp Pi 3 with 7" LCD and 8GB SD | arm | Mini "computer", but no battery... |
+| Rasp Pi 3 | arm | Pi-TopCEED (desktop form factor) |
+| Rasp Pi 2 (2011.12) | arm | NES Emulator |
+| Onion Omega2 | mips | Weather Station | 
+| RAVPower (flashed with OpenWRT) | mips | Portable Router | 
+| Spark Core | arm  |  |
+| Tessel 2 | mips |  |
 
 # Hardware Platforms
 
