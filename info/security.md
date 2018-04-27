@@ -35,6 +35,8 @@ but also several paid options.  Used to be a bit cumbersome to use, but may be i
     openssl ca -config openssl.cnf -in mydomain.csr -out mydomain.crt
     {% endhighlight %}
 
+=======
+
 # External Links
 
 Useful article at [Open Source Replacement for Security Software](http://www.datamation.com/security/65-open-source-replacements-for-security-software-1.html)  Packages I found interesting (mostly untested by myself unless otherwise stated)
